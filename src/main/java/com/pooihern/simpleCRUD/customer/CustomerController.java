@@ -26,8 +26,8 @@ public class CustomerController {
 		
 	}
 	
-	public CustomerController(CustomerRepo userRepo) {
-		this.customerRepo = userRepo;
+	public CustomerController(CustomerRepo customerRepo) {
+		this.customerRepo = customerRepo;
 	}
 	
 	@SuppressWarnings("unchecked")
